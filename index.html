@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StudyBot AI</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>📘 StudyBot</h2>
+
+      <button class="new-chat">+ New Question</button>
+
+      <div class="subjects">
+        <h3>Subjects</h3>
+
+        <button>📐 Mathematics</button>
+        <button>🧪 Chemistry</button>
+        <button>🧬 Biology</button>
+        <button>📖 English</button>
+        <button>🌍 Government</button>
+        <button>💻 Computer</button>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main">
+
+      <!-- Header -->
+      <header>
+        <h1>StudyBot AI</h1>
+
+        <button id="themeToggle">🌙</button>
+      </header>
+
+      <!-- Chat Area -->
+      <div class="chat-area" id="chatArea">
+
+        <div class="message ai">
+          👋 Hello! Ask me any school question.
+        </div>
+
+      </div>
+
+      <!-- Input -->
+      <div class="input-area">
+
+        <input 
+          type="text" 
+          id="userInput" 
+          placeholder="Type your question..."
+        />
+
+        <button id="sendBtn">Send</button>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
